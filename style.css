@@ -1,0 +1,1654 @@
+/*--------- fonts ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+/* global */
+
+.align-items-center{
+    align-items: center;
+}
+
+
+body{
+    font-size: 18px;
+    line-height: 1.1 ;
+    overflow: hidden;
+    overflow: auto;
+    background-color: #edd3ff;
+}
+
+
+/* ------------------------ dark mode  ------------------------   */
+
+.dark-mode {
+    background-color: #0f0018;
+    color:  rgb(238, 240, 125);
+    font-size: 18px;
+    line-height: 1.1;
+    overflow: auto;
+    transition: all 1s ease-in;
+    
+}
+
+
+
+
+.dark-mode-btn{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50%;
+    height: 4vh;
+    width: 4.5vh;
+    margin-top: 0.35vh;
+    background-color: rgb(102, 2, 122);
+    position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+*:not(i){
+    font-family: 'Raleway',sans-serif;
+    font-weight: 400px;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+:before, :after{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+.container{
+    max-width: 1120px;
+   
+    margin: auto;
+} 
+
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+
+
+
+.gradient1{
+    background: linear-gradient(90.15deg, #c526b5 0.13%, #841a7f 14.23%, #f150eb 24.18%, #C22AC2 33.03%, #E083E2 38.33%, #90129A 50.84%, #D579D7 65.66%, rgba(163, 21, 160, 0.84) 73.78%, rgba(196, 41, 189, 0.462903) 80.01%, rgba(180, 12, 166, 0.801205) 88.13%, #B337A6 98.14%, rgba(113, 48, 153, 0) 105.15%);
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 4.3px;
+    left: 0;
+    z-index: 99;
+}
+
+/* .gradient2{
+    background: linear-gradient(90.15deg, #c526b5 0.13%, #841a7f 14.23%, #f150eb 24.18%, #C22AC2 33.03%, #E083E2 38.33%, #90129A 50.84%, #D579D7 65.66%, rgba(163, 21, 160, 0.84) 73.78%, rgba(196, 41, 189, 0.462903) 80.01%, rgba(180, 12, 166, 0.801205) 88.13%, #B337A6 98.14%, rgba(113, 48, 153, 0) 105.15%);
+    position: absolute;
+    width: 100%;
+    
+    height: 4px;
+    left: 0;
+    top: 75px;
+    z-index: 99;
+}
+
+.gradient3{
+    background: linear-gradient(90.15deg, #c526b5 0.13%, #841a7f 14.23%, #f150eb 24.18%, #C22AC2 33.03%, #E083E2 38.33%, #90129A 50.84%, #D579D7 65.66%, rgba(163, 21, 160, 0.84) 73.78%, rgba(196, 41, 189, 0.462903) 80.01%, rgba(180, 12, 166, 0.801205) 88.13%, #B337A6 98.14%, rgba(113, 48, 153, 0) 105.15%);
+    position: absolute;
+    width: 100%;
+    
+    height: 4px;
+    left: 0;
+    top: 44px;
+    z-index: 99;
+} */
+
+
+
+
+/* header */
+
+.header{
+    background-color: rgb(11, 0, 23);
+    padding: 20px 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    
+}
+
+.header .logo a{
+    display: inline-block;
+    text-align: center;
+    line-height: 37px;
+    height: 40px;
+    width: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:var(--skin-color);
+    background-color: rgb(209, 158, 246);
+    border-radius: 50%;
+    border: 2px solid var(--skin-color);
+    color: #11000c;
+}
+
+.header .hamburger-btn{
+    height: 40px;
+    width: 40px;
+    background-color: #f670ef;
+    box-shadow: 2 2 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: 0.3s ease ;
+    cursor: pointer;
+    
+}
+
+.header .hamburger-btn span{
+    height: 3px;
+    width: 18 px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    background-color: #290027;
+}
+
+
+
+
+/* ------------------------ social media handles  ------------------------   */
+
+.header .social-links{
+    text-align: center;
+
+
+}
+
+.header .social-links a{
+    
+    width: 5.5vh;
+    display: inline-block;
+    /* background-color: navajowhite; */
+    color: #e2b1f7;
+    margin-top: 1.5vh;
+}
+
+.header .social-links a :hover{
+    color: rgb(232, 253, 5);
+    animation: rightBounce3 1.6s ease-in-out infinite;
+    ;
+}
+
+
+
+.header .header-2{
+    background-color: rgb(33, 0, 70);
+    padding: 15px 10px;
+    position: absolute;
+    width: 100%;
+    height: 8vh;
+    margin-top: 10vh;
+    
+    
+}
+
+
+
+
+
+
+
+/* --------------------navigation menu ----------------- */
+
+
+.nav-menu{
+    position: fixed;
+    background-color: #db7cbf;
+    padding:0 20px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+
+} 
+
+.nav-menu .close-nav-menu{
+    height: 50px;
+    width: 50px;
+    display: block;
+    font-size: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.3s ease;
+
+}
+
+.nav-menu .close-nav-menu ::after{
+    border-radius: 50%;
+}
+
+.nav-menu-inner{
+    background-color: #ffa9f1;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-menu ul{
+   
+    padding: 40px;
+}
+
+.nav-menu ul li{
+    background-color: #110010;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 50vh;
+}
+
+.nav-menu ul li:hover{
+    background-color: #300030;
+} 
+
+.nav-menu ul li a{
+    display: inline-block;
+    font-size: 27px;
+    font-weight: 600;
+    padding: 5px 44px;
+    text-transform: capitalize;
+    transition: 0.3s ease;
+    border-radius: 30px;
+}
+
+
+.nav-menu .copyright-text{
+    position: absolute;
+    top: 96%;
+    left: 46%;
+    font-size: 15px;
+    color: rgb(239, 196, 255);
+}
+
+
+
+
+
+/* .preloader{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1500;
+    background-color: #1a0012;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.preloader .box{
+    width: 65px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.preloader .box div{
+    height: 2vh;
+    width: 2vh;
+    background-color: rgb(223, 169, 233);
+    border-radius: 50%;
+    animation: loader 1.2s ease infinite;
+}
+
+.preloader .fade-out{
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.preloader .box div:nth-child(2){
+    animation-delay: 0.1s;
+}
+.preloader .box div:nth-child(3){
+    animation-delay: 0.2s;
+}
+
+@keyframes loader{
+    0%, 100%{
+        transform: translateY();
+    }
+    50%{
+        transform: translateY(-40px);
+    }
+}
+
+
+
+
+
+
+/* --------------------------------- home section ------------------------------------ */
+
+.effect{
+    display: inline-block;
+}
+
+.effect h4{
+    font-size: 2.6vh;
+    text-align: center;
+    margin-top: 6vh;
+    
+
+}
+
+.effect-1{
+    height: 20vh;
+    width: 22vh;
+    border: 20px solid rgb(107, 35, 133);
+    border-radius: 50%;
+    margin-left: 4vh;
+    animation: rightBounce1 6s ease-in-out infinite;
+    
+    
+    
+    
+}
+
+.effect-2{
+    height: 13vh;
+    width: 13vh;
+    border: 12px solid rgb(99, 25, 106);
+    border-radius: 50%;
+    margin-left: 7vh;
+    animation: rightBounce2 3s ease-in-out infinite;
+    
+    
+}
+
+.effect-3{
+    height: 18vh;
+    width: 18vh;
+    border: 17px solid rgb(137, 50, 145);
+    border-radius: 50%;
+    margin-left: 125vh;
+    animation: rightBounce1 5s ease-in-out infinite;
+    
+    
+}
+
+
+@keyframes rightBounce1 {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(550px);
+    }
+    
+}
+
+@keyframes rightBounce2 {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(180px);
+    }
+    
+}
+
+
+
+@keyframes rightBounce3 {
+    0%,100%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(6px);
+    }
+    
+}
+
+
+
+.home-section .full-screen{
+    margin-top: 8vh;
+    /* background-color: #28001c; */
+    padding: 0 0;
+    height: 10vh;
+    min-height: 10vh;
+}
+
+.home-section .home-text,
+.home-section .home-img{
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 30px;
+
+}
+
+.home-section .home-text h4{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 2%;
+    
+    text-align: center;
+    
+
+}
+
+.home-section .home-text h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 2%;
+    margin-left: 22vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+    
+}
+
+
+
+.home-section .home-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 3%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+
+
+}
+
+.home-section .home-text a{
+    color: rgb(250, 190, 255);
+    font-weight: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+
+
+.home-section .home-img .img-box{
+    background-color: #310048;
+    max-width: 410px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    height: 54vh;
+}
+
+.home-section .home-img .img-box img{
+    width: 91.5%;
+    height: 91%;
+    border-radius: 50%;
+    margin: 2vh;
+
+}
+
+.btn-1{
+    padding: 20px 15px;
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+    height: auto;
+    max-height: 2vh;
+    width: 21vh;
+    margin-left: 21vh;
+    cursor: pointer;
+    border-radius: 10vh;
+    align-items: center;
+    margin-top: 9%;
+    background-color: #11000c;
+    color: rgb(248, 210, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.btn{
+    padding: 10px 1px 15px;
+    
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-flex;
+    
+    max-height: 2vh;
+    width: 15vh;
+    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 5px;
+    border: 20px yellowgreen;
+    
+    background-color: #8608b4d8;
+    color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s ease;
+
+
+}
+
+
+
+
+
+
+.navbuttons{
+    margin-left: 68vh;
+    
+}
+
+.navbuttons :hover{
+    background-color: #e1ff3a;
+    color: #11000c;
+    animation: rightBounce3 1.4s ease-in-out infinite;
+
+}
+
+.topBtn{
+    padding: 10px 1px 15px;
+    
+    font-size: 15px;
+    font-weight: 500;
+    display: inline-flex;
+    right: 0;
+    
+    max-height: 6vh;
+    width: 6vh;
+    
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 0 5px;
+    border: 20px yellowgreen;
+    
+    background-color: #703189;
+    color: rgb(234, 199, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.6s ease;
+
+
+}
+
+.top-btn{
+    margin-left: 195vh;
+    z-index: 99;
+    margin-top: 28vh;
+    position: fixed;
+
+}
+
+
+
+
+
+.btn-1:hover{
+    background-color: #601685;
+    
+}
+
+
+.about-section{
+    margin-top: 70vh;
+    
+
+}
+
+.section-title{
+    /* background-color: #11000c; */
+    padding: 0 19px;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    
+    font-size: 23px;
+
+}
+
+.section-title h2{
+    /* background-color: #36054f; */
+    display: inline-block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 4vh;
+}
+
+.about-section .about-img{
+    height: 57vh;
+    flex:0 0 40%;
+    max-width: 70%;
+    justify-content: center;
+    
+    
+
+}
+
+.about-section .about-img .img-box img{
+    height: 50vh;
+    margin-left: 49vh;
+    width: 55vh;
+    border-radius: 36px;
+    
+}
+
+.about-section .about-info{
+    
+    flex: 0 0 70%;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    ;
+
+    
+}
+
+.about-section .about-info a{
+    margin: 2vh;
+    align-items: center;
+    margin-left: 64vh;
+    color: rgb(231, 206, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+
+.about-section .about-info span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+    padding: 15.5vh;
+
+}
+
+
+
+/* ---------------------------- portfolio-section ------------------------------ */
+
+.portfolio-section{
+    /* background-color: #d3209d; */
+    padding:100px 0 100px;
+    min-height: 110vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.portfolio-section .section-title{
+    margin-bottom: 4vh;
+}
+
+.portfolio-section .portfolio-filter{
+    
+    text-align: center;
+    max-width: 100%;
+    flex: 0 0 100%;
+}
+
+.portfolio-section .filter-item{
+    
+    color: #ffcbef;
+    
+    background-color: #11000c;
+    max-height: 5vh;
+    max-width:20vh;
+    padding: 1vh 0 2vh;
+    display: inline-block;
+    margin: 0 6px 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.5s ease;
+}
+
+.portfolio-section .filter-item:hover{
+    background-color: rgb(74, 0, 110);
+}
+
+
+
+
+
+
+
+/* ----------------------------  All - flashcards ----------------------------- */
+
+
+
+
+
+.All-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 4vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 118);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.All-flashcard-left h2{
+    font-size: 26px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.All-flashcard-outer{
+    width: 50vh;
+    height: 50vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 80vh;
+    margin-top: 10vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 107);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.All-flashcard-inner{
+    width: 45vh;
+    height: 45vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -35.5vh;
+    border-radius: 40px;
+    background-image: url(images/all1.jpeg);
+    background-size: 100% 100%;
+    animation: all 25s infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transition: all 1s ease;
+
+}
+
+.All-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 64vh;
+    margin-top: -35vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 106);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.All-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+}
+
+
+
+
+
+@keyframes all{
+    0%{background-image: url(images/all1.jpeg);}
+    20%{background-image: url(images/all2.jpeg);}
+    40%{background-image: url(images/all3.jpeg);}
+    60%{background-image: url(images/all4.jpeg);}
+    80%{background-image: url(images/all5.jpeg);}
+    100%{background-image: url(images/all5.jpeg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------  Web-design - flashcards ----------------------------- */
+
+
+
+
+
+.Web-Design-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 22vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 111);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.Web-Design-flashcard-left h2{
+    font-size: 26px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.Web-Design-flashcard-outer{
+    width: 78vh;
+    height: 74vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 66vh;
+    margin-top: 2vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 93);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.Web-Design-flashcard-inner{
+    width: 72vh;
+    height: 66vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -53.5vh;
+    border-radius: 40px;
+    background-image: url(images/design1\ \(1\).png);
+    background-size: 100% 100%;
+    animation: design 45s infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transition: all 5s ease;
+
+}
+
+.Web-Design-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 90vh;
+    margin-top: -34vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 87);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.Web-Design-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+
+
+
+
+@keyframes design{
+    0%{background-image: url(images/design1\ \(1\).png);}
+    6%{background-image: url(images/design1\ \(2\).png);}
+    14%{background-image: url(images/design1\ \(3\).png);}
+    24%{background-image: url(images/design1\ \(4\).png);}
+    34%{background-image: url(images/design1\ \(5\).png);}
+    44%{background-image: url(images/design1\ \(6\).png);}
+    54%{background-image: url(images/design1\ \(7\).png);}
+    64%{background-image: url(images/design1\ \(8\).png);}
+    74%{background-image: url(images/design1\ \(9\).png);}
+    82%{background-image: url(images/design1\ \(10\).png);}
+    92%{background-image: url(images/design1\ \(11\).png);}
+    
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------  painting - flashcards ----------------------------- */
+
+
+
+.painting-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 22vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 104);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.painting-flashcard-left h2{
+    font-size: 30px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.painting-flashcard-outer{
+    width: 78vh;
+    height: 74vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 66vh;
+    margin-top: 2vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 110);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.painting-flashcard-inner{
+    width: 72vh;
+    height: 66vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -53.5vh;
+    border-radius: 40px;
+    background-image: url(images/painting1.jpeg);
+    background-size: 100% 100%;
+    animation: slider-painting 45s infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transition: all 5s ease;
+
+}
+
+.painting-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 90vh;
+    margin-top: -34vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 115);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.painting-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+
+
+
+
+@keyframes slider-painting{
+    0%{background-image: url(images/painting1.jpeg);}
+    8%{background-image: url(images/painting2.jpeg);}
+    16%{background-image: url(images/painting3.jpeg);}
+    24%{background-image: url(images/painting4.jpeg);}
+    32%{background-image: url(images/painting5.jpeg);}
+    40%{background-image: url(images/painting6.jpeg);}
+    48%{background-image: url(images/painting7.jpeg);}
+    56%{background-image: url(images/painting8.jpeg);}
+    64%{background-image: url(images/painting9.jpeg);}
+    72%{background-image: url(images/painting10.jpeg);}
+    82%{background-image: url(images/painting11.jpeg);}
+    91%{background-image: url(images/painting12.jpeg);}
+    
+}
+
+
+
+
+
+
+
+
+
+/* ----------------------------  photography - flashcards ----------------------------- */
+
+
+
+.photography-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 22vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 103);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.photography-flashcard-left h2{
+    font-size: 26px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.photography-flashcard-outer{
+    width: 78vh;
+    height: 74vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 66vh;
+    margin-top: 2vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 112);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.photography-flashcard-inner{
+    width: 72vh;
+    height: 66vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -53.5vh;
+    border-radius: 40px;
+    background-image: url(images/photography1.jpeg);
+    background-size: 100% 100%;
+    animation: photography 45s infinite ;
+    transition: all 5s ease;
+
+}
+
+.photography-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 90vh;
+    margin-top: -34vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(253, 253, 93);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.photography-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+
+
+@keyframes photography{
+    0%{background-image: url(images/photography1.jpeg);}
+    8%{background-image: url(images/photography2.jpeg);}
+    16%{background-image: url(images/photography3.jpeg);}
+    24%{background-image: url(images/photography4.jpeg);}
+    32%{background-image: url(images/photography5.jpeg);}
+    40%{background-image: url(images/photography6.jpeg);}
+    48%{background-image: url(images/photography7.jpeg);}
+    56%{background-image: url(images/photography8.jpeg);}
+    64%{background-image: url(images/photography9.jpeg);}
+    72%{background-image: url(images/photography10.jpeg);}
+    82%{background-image: url(images/photography11.jpeg);}
+    91%{background-image: url(images/photography12.jpeg);}
+    
+}
+
+
+
+
+/* ----------------------------  Cooking - flashcards ----------------------------- */
+
+
+
+
+
+.Cooking-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 22vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 97);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.Cooking-flashcard-left h2{
+    font-size: 26px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.Cooking-flashcard-outer{
+    width: 78vh;
+    height: 74vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 66vh;
+    margin-top: 2vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 86);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.Cooking-flashcard-inner{
+    width: 72vh;
+    height: 66vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -53.5vh;
+    border-radius: 40px;
+    background-image: url(images/cooking1.jpeg);
+    background-size: 100% 100%;
+    animation: cooking 38s infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transition: all 1s ease;
+
+}
+
+.Cooking-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 90vh;
+    margin-top: -34vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 90);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.Cooking-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+
+
+
+
+@keyframes cooking{
+    0%{background-image: url(images/cooking1.jpeg);}
+    10%{background-image: url(images/cooking2.jpeg);}
+    20%{background-image: url(images/cooking3.jpeg);}
+    30%{background-image: url(images/cooking4.jpeg);}
+    40%{background-image: url(images/cooking5.jpeg);}
+    50%{background-image: url(images/cooking6.jpeg);}
+    60%{background-image: url(images/cooking7.jpeg);}
+    70%{background-image: url(images/cooking8.jpeg);}
+    80%{background-image: url(images/cooking9.jpeg);}
+    90%{background-image: url(images/cooking10.jpeg);}
+   
+    
+}
+
+
+
+
+
+
+/* ------------------------------- writing - flashcards ----------------------------- */
+
+
+
+
+.Writing-flashcard-left{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: -50vh;
+    margin-top: 22vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    border-radius: 40px;
+    display: inline-block;
+    
+    background-size: 100% 100%;
+
+}
+
+.Writing-flashcard-left h2{
+    font-size: 26px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 10vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+.Writing-flashcard-outer{
+    width: 78vh;
+    height: 74vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 66vh;
+    margin-top: 2vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    border-radius: 40px;
+    
+    background-size: 100% 100%;
+    
+    
+}
+.Writing-flashcard-inner{
+    width: 72vh;
+    height: 66vh;
+    background-color: #170024;
+    justify-content: center;
+    position: absolute;
+    margin-left: 3vh;
+    margin-top: -53.5vh;
+    border-radius: 40px;
+    background-image: url(images/painting1.jpeg);
+    background-size: 100% 100%;
+    animation: slider-painting 45s infinite ;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+    transition: all 5s ease;
+
+}
+
+.Writing-flashcard-right{
+    width: 35vh;
+    height: 35vh;
+    background-color: #170024;
+    justify-content: center;
+    margin-left: 90vh;
+    margin-top: -34vh;
+    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    border-radius: 40px;
+    display: flex;
+    
+    background-size: 100% 100%;
+
+}
+
+
+.Writing-flashcard-right h2{
+    font-size: 20px;
+    margin: 4vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    text-align: center;
+    margin-top: 8vh;
+    color: rgb(211, 182, 255);
+
+
+}
+
+
+
+
+
+@keyframes slider-photography{
+    0%{background-image: url(images/painting1.jpeg);}
+    8%{background-image: url(images/painting2.jpeg);}
+    16%{background-image: url(images/painting3.jpeg);}
+    24%{background-image: url(images/painting4.jpeg);}
+    32%{background-image: url(images/painting5.jpeg);}
+    40%{background-image: url(images/painting6.jpeg);}
+    48%{background-image: url(images/painting7.jpeg);}
+    56%{background-image: url(images/painting8.jpeg);}
+    64%{background-image: url(images/painting9.jpeg);}
+    72%{background-image: url(images/painting10.jpeg);}
+    82%{background-image: url(images/painting11.jpeg);}
+    91%{background-image: url(images/painting12.jpeg);}
+    
+}
+
+
+
+
+
+
+
+/* ---------------------------------- testimonial start ------------------------ */
+
+
+.testimonial-section{
+    padding:100px 0 100px;
+    min-height: 100vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.testimonial-section .testi-box{
+    width: 40%;
+    max-width:150vh ;
+    height: 65vh;
+    margin: auto;
+    background-color: #a473c0;
+    text-align: center;
+    padding: 60px;
+    
+    border-radius: 36px;
+    
+
+
+}
+
+.testimonial-section .testi-slider{
+    overflow: hidden;
+}
+
+.testimonial-section .testi-slider-container{
+    display: flex;
+    
+    
+    
+    transition: margin 1s ease;
+}
+
+.testimonial-section .testi-slider-container .testiimg{
+    max-height: 50vh;
+    max-width: 38vh;
+    border-radius: 50%;
+    padding: 4vh;
+
+}
+
+.testimonial-section .testi-box p{
+    font-size: 18px;
+    font-style: italic;
+    width: 64vh;
+    padding: 0 9vh 5vh;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.testimonial-section .testi-slider-nav{
+    
+    color: #f3b4e0;
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 6vh;
+    
+}
+
+.testimonial-section .testi-slider-nav span{
+    display: inline-block;
+    height: 5vh;
+    width: 5vh;
+    padding: 1vh;
+    border-radius: 50%;
+    background-color: #11000c;
+    cursor: pointer;
+    transition: all 1s ease;
+    margin-left: 2vh;
+
+}
+
+.testimonial-section .testi-slider-nav span:hover{
+    background-color: #601685;
+}
+
+
+
+/* ---------------------------------- testimonial end ------------------------ */
+
+
+
+
+
+/* ---------------------------------- contact start ------------------------ */
+
+
+.contact-section{
+    padding: 18vh 0 30vh;
+    
+
+}
+
+.contact-section .contact-item{
+    flex: 0 0 33.33%;
+    padding: 3.8vh;
+    height: 20vh;
+    width: 45vh;
+    display: flexbox;
+    
+}
+
+.contact-section .contact-item .contact-item{
+    
+    
+    text-align: center;
+    background-color: #a473c0;
+    border-radius: 30px;
+    transition: all 1s ease;
+
+    
+}
+
+.contact-section .contact-item .contact-item i{
+    font-size: 24px;
+}
+
+.contact-section .contact-item .contact-item span{
+    display: block;
+    padding: 1.2vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-weight:600;
+    
+
+}
+
+.contact-section .contact-item .contact-item p{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 1x;
+    letter-spacing: 0.6px;
+    
+
+}
+
+.contact-section .contact-item .contact-item:hover{
+    background-color: #d7a3ed;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------- contact end ------------------------ */
+
+
+
+
+
+
+ /* -------------------------- footer ------------------------------- */
+
+.footer{
+    background-color: rgb(11, 0, 23);
+    padding: 20px 10px;
+    position: absolute;
+    width: 100%;
+    height: 10vh;
+    
+    
+}
+
+.footer .copyright-text{
+    
+    color: rgb(239, 196, 255);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer a{
+    margin-left: 93vh;
+}
+    
+
