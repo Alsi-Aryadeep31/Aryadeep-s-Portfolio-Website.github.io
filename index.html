@@ -13,12 +13,20 @@
 
 
     <div class="preloader">
-        <div class="box">
+        <div class="box"><h3>Welcome to my website</h3>
+            
            <div></div>
            <div></div>
            <div></div>
         </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.preloader').fadeToggle();
+        }, 1600);
+    </script>
 
     
 
@@ -60,14 +68,11 @@
                 <button class="btn btn-2" onclick="downFunction2()" id="myBtn" title="To Know More">About</button>
                 <button class="btn btn-3" onclick="downFunction3()" id="myBtn" title="To Know More">Portfolio</button>
                 <button class="btn btn-3" onclick="downFunction4()" id="myBtn" title="To Know More">Feedback</button>
-                <button class="btn btn-3" onclick="downFunction5()" id="myBtn" title="To Know More">Contact</button>
+                <button class="btn btn-3" onclick="downFunction5()" id="myBtn" title="To Know More">FAQ</button>
+                <button class="btn btn-3" onclick="downFunction6()" id="myBtn" title="To Know More">Contact</button>
 
 
             </div>
-
-            
-
-
 
         </div>
         <div class="gradient3"></div>
@@ -119,7 +124,43 @@
         <div class="effect effect-2"></div>
         <div class="effect effect-3"></div>
         <div class="top-btn">
-            <button class="topBtn" onclick="topFunction()" id="myBtn" title="To toggle up">Top</button>
+            
+            <button class="topBtn" onclick="topFunction()"" id="myBtn" title="To toggle up">Top</button>
+            
+            <br>
+            <br>
+    
+            <p class="topBtn"  id="playBtn" title="Play music"><i class="fa-solid fa-music"></i></p>
+            <audio id="mySong" loop>
+                <source src="mysong.mp3" type="audio/mp3">
+            </audio>
+
+            <script>
+                var mySong = document.getElementById("mySong");
+                var playBtn = document.getElementById("playBtn");
+                playBtn.onclick =  function(){
+                    if (mySong.paused){
+                        mySong.play();
+
+                    }else{
+                        mySong.pause();
+                    }
+                    
+                    
+
+                }
+                
+                // }
+                // ]
+                // playBtn.onclick = function(){
+                   
+                //     mySong.play();
+
+    
+                    
+                // }
+            </script>
+
             
 
 
@@ -154,7 +195,7 @@
 
     <section class="about-section section">
 
-        <hr>
+        
         <div class="container">
             <div class="row">
                 <div class="section-title">
@@ -190,7 +231,7 @@
     <!------------------------- portfolio-section-start ------------------------->
 
 
-    <hr>
+
 
     <section class="portfolio-section section">
         <div class="container">
@@ -319,7 +360,6 @@
         
 <!---------------------------------- testimonial-start ------------------------->
 
-<hr>
 
     <section class="testimonial-section section">
         <div class="container">
@@ -392,6 +432,12 @@
         </div>
 
     </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
 
 
     
@@ -400,10 +446,132 @@
 
 
 
+<!----------------------------------  FAQ-start ------------------------------->
 
-<!---------------------------------- contact-start ------------------------->
 
-<hr>
+
+
+<section class="FAQ-section section">
+
+    <div class="container">
+        <div class="row">
+            <div class="section-title">
+                <h2 data-heading="testimonial">FAQ Section</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="layout"> 
+
+        <div class="accordion"> 
+    
+          <div class="accordion__question"> 
+    
+            <p>How do I manage my time?</p> 
+    
+      
+    
+          </div> 
+    
+          <div class="accordion__answer"> 
+    
+            <p>Time is precious , well take it as a game mixing 2 3 works at the same time, work with passion and the flow will run by</p> 
+    
+          </div> 
+    
+        </div> 
+    
+      
+    
+        <div class="accordion"> 
+    
+          <div class="accordion__question"> 
+    
+            <p>My top dream in the bucket list?</p> 
+    
+          </div> 
+    
+      
+    
+          <div class="accordion__answer"> 
+    
+            <p> 
+    
+              Nothing as such in real , still trying to find something unique and different. 
+    
+            </p> 
+    
+          </div> 
+    
+        </div> 
+
+        <div class="accordion"> 
+    
+            <div class="accordion__question"> 
+      
+              <p>Where is Taj Mahal located?</p> 
+      
+        
+      
+            </div> 
+      
+            <div class="accordion__answer"> 
+      
+              <p>Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+      
+            </div> 
+      
+          </div> 
+
+          <div class="accordion"> 
+    
+            <div class="accordion__question"> 
+      
+              <p>Where is Taj Mahal located?</p> 
+      
+        
+      
+            </div> 
+      
+            <div class="accordion__answer"> 
+      
+              <p>Taj Mahal is located in Agra, Uttar Pradesh.</p> 
+      
+            </div> 
+      
+          </div> 
+    
+    </div>
+
+    <script>
+let answers = document.querySelectorAll(".accordion"); 
+answers.forEach((event) => { 
+
+  event.addEventListener("click", () => { 
+
+    if (event.classList.contains("active")) { 
+
+      event.classList.remove("active"); 
+
+    } else { 
+
+      event.classList.add("active"); 
+
+    } 
+
+  }); 
+});
+
+    </script>
+</section>
+
+
+
+<!---------------------------------- contact-start --------------------------->
+
+<br>
+<br>
+<br>
 
 
 <section class="contact-section section">

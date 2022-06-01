@@ -1,6 +1,6 @@
 //Get the More abour=t me button
 
-mybutton=document.getElementById("myBtn");
+
 
 function downFunction(){
     document.documentElement.scrollTo(0,830);
@@ -17,6 +17,9 @@ function downFunction4(){
 }
 function downFunction5(){
     document.documentElement.scrollTo(0,6700);
+}
+function downFunction6(){
+    document.documentElement.scrollTo(0,7400);
 }
 
 
@@ -50,22 +53,21 @@ function myFunctiontheme(){
 
 
 
+
 //show button when scrolled 30px
 
  
+mybutton= document.getElementById(myBtn);
+// myButton.style.visibility="hidden";
 
-function scrollFunction(){
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
-        mybutton.style.display="block";
-    }
-    else{
-        mybutton.style.display="none";
-    }
-}
-
-
-
-
+// function scrollFunction(){
+//     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+//         mybutton.style.display="block";
+//     }
+//     else{
+//         mybutton.style.display="hidden";
+//     }
+// }
 
 
 
@@ -77,11 +79,6 @@ function scrollFunction(){
 
 
 
-
-// addEventListener("load", ()=> {
-//         document.querySelector(".preloader").classList.add("fade-out");
-//         setTimeout(() => {
-//             document.querySelector(".preloader").style.display = "none";
 
 //         }, 600)
 //     })

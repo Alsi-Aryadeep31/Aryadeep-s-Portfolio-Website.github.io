@@ -21,6 +21,7 @@ body{
     overflow: hidden;
     overflow: auto;
     background-color: #edd3ff;
+   
 }
 
 
@@ -328,7 +329,7 @@ img{
 
 
 
-/* .preloader{
+.preloader{
     position: fixed;
     left: 0;
     top: 0;
@@ -339,7 +340,7 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-} */
+}
 
 .preloader .box{
     width: 65px;
@@ -378,7 +379,15 @@ img{
     }
 }
 
+.preloader .box h3{
+    color: rgb(247, 235, 97);
+    margin-top: 5vh;
+    position: fixed;
+    text-align: center;
+    margin-left: -10vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
+}
 
 
 
@@ -486,7 +495,7 @@ img{
 .home-section .home-text h4{
     font-size: 16px;
     text-transform: capitalize;
-    margin: 2%;
+    margin: 3%;
     
     text-align: center;
     
@@ -496,9 +505,8 @@ img{
 .home-section .home-text h3{
     font-size: 20px;
     font-weight: 700;
-    margin-top: 2%;
+    margin-top: 7%;
     margin-left: 22vh;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 
@@ -511,7 +519,7 @@ img{
     font-size: 40px;
     font-weight: 700;
     text-align: center;
-    margin-top: 3%;
+    margin-top: 6%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
     
@@ -554,7 +562,7 @@ img{
     height: auto;
     max-height: 2vh;
     width: 21vh;
-    margin-left: 21vh;
+    margin-left: 22vh;
     cursor: pointer;
     border-radius: 10vh;
     align-items: center;
@@ -565,28 +573,27 @@ img{
 
 }
 
+
 .btn{
     padding: 10px 1px 15px;
     
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 500;
     display: inline-flex;
     
-    max-height: 2vh;
-    width: 15vh;
+    max-height: 3vh;
+    width: 14vh;
     
     justify-content: center;
     align-items: center;
     cursor: pointer;
     border-radius: 30px;
-    margin: 0 5px;
-    border: 20px yellowgreen;
-    
-    background-color: #8608b4d8;
+    margin: 0 4px;
+
+    background-color: #8611a7d8;
     color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    transition: all 0.6s ease;
-
+    transition: all 0.7s ease;
 
 }
 
@@ -1550,6 +1557,78 @@ img{
 
 
 /* ---------------------------------- testimonial end ------------------------ */
+
+
+
+
+/* ---------------------------------- FAQ start ------------------------ */
+
+.layout { 
+
+    width: 100vh; 
+  
+    margin: auto; 
+  } 
+
+  .accordion { 
+  
+    padding: 2vh; 
+  
+    margin-top: 10bh; 
+  
+    margin-bottom: 10px; 
+   
+    background: #a473c0; 
+  
+    border-radius: 20px; 
+  } 
+  .accordion__question p { 
+  
+    margin: 1vh; 
+  
+    padding: 0; 
+  
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+  
+    font-size: 20px; 
+  } 
+  .accordion__answer p { 
+  
+    margin: 5px; 
+  
+    padding: 10px; 
+  
+    font-size: large; 
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  
+    color: rgb(248, 168, 255); 
+  
+    background: rgb(42, 0, 45); 
+  
+    border-radius: 10px; 
+  } 
+  .accordion:hover { 
+  
+    cursor: pointer; 
+  } 
+  .accordion__answer { 
+  
+    display: none; 
+  } 
+  .accordion.active .accordion__answer { 
+  
+    display: block; 
+  }
+
+
+
+
+
+
+
+
+/* ---------------------------------- FAQ end ------------------------ */
 
 
 

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="topBtn" onclick="topFunction()" id="myBtn" title="To toggle up">Top</button>
+    <script>
+mybutton= document.getElementById(myBtn);
+
+
+function scrollFunction(){
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50){
+        mybutton.style.display="block";
+    }
+    else{
+        mybutton.style.display="hidden";
+    }
+}
+
+
+
+
+    </script>
+
+</body>
+</html>
