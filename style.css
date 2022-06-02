@@ -791,7 +791,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 4vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 118);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -818,7 +818,7 @@ img{
     justify-content: center;
     margin-left: 80vh;
     margin-top: 10vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 107);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -849,7 +849,7 @@ img{
     justify-content: center;
     margin-left: 64vh;
     margin-top: -35vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 106);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
@@ -907,7 +907,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 22vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 111);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -934,7 +934,7 @@ img{
     justify-content: center;
     margin-left: 66vh;
     margin-top: 2vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 93);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -965,7 +965,7 @@ img{
     justify-content: center;
     margin-left: 90vh;
     margin-top: -34vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 87);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
@@ -1024,7 +1024,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 22vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 104);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -1051,7 +1051,7 @@ img{
     justify-content: center;
     margin-left: 66vh;
     margin-top: 2vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 110);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -1082,7 +1082,7 @@ img{
     justify-content: center;
     margin-left: 90vh;
     margin-top: -34vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 115);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
@@ -1142,7 +1142,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 22vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 103);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -1169,7 +1169,7 @@ img{
     justify-content: center;
     margin-left: 66vh;
     margin-top: 2vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 112);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -1199,7 +1199,7 @@ img{
     justify-content: center;
     margin-left: 90vh;
     margin-top: -34vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(253, 253, 93);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
@@ -1254,7 +1254,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 22vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 97);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -1281,7 +1281,7 @@ img{
     justify-content: center;
     margin-left: 66vh;
     margin-top: 2vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 86);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -1312,7 +1312,7 @@ img{
     justify-content: center;
     margin-left: 90vh;
     margin-top: -34vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(255, 255, 90);
+    box-shadow:0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
@@ -1369,7 +1369,7 @@ img{
     justify-content: center;
     margin-left: -50vh;
     margin-top: 22vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: inline-block;
     
@@ -1396,7 +1396,7 @@ img{
     justify-content: center;
     margin-left: 66vh;
     margin-top: 2vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     
     background-size: 100% 100%;
@@ -1427,7 +1427,7 @@ img{
     justify-content: center;
     margin-left: 90vh;
     margin-top: -34vh;
-    box-shadow: 1vh 1vh 1vh 1.4vh rgb(203, 203, 134);
+    box-shadow: 0 0 5vh rgb(255, 255, 0);
     border-radius: 40px;
     display: flex;
     
