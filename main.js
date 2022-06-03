@@ -3,23 +3,23 @@
 
 
 function downFunction(){
-    document.documentElement.scrollTo(0,830);
+    document.documentElement.scrollTo(0,820);
 }
 
 function downFunction2(){
-    document.documentElement.scrollTo(0,830);
+    document.documentElement.scrollTo(0,810);
 }
 function downFunction3(){
-    document.documentElement.scrollTo(0,1635);
+    document.documentElement.scrollTo(0,1600);
 }
 function downFunction4(){
-    document.documentElement.scrollTo(0,6000);
+    document.documentElement.scrollTo(0,6020);
 }
 function downFunction5(){
-    document.documentElement.scrollTo(0,6700);
+    document.documentElement.scrollTo(0,6820);
 }
 function downFunction6(){
-    document.documentElement.scrollTo(0,7400);
+    document.documentElement.scrollTo(0,7600);
 }
 
 
@@ -89,42 +89,42 @@ mybutton= document.getElementById(myBtn);
 
 // /*--------------------testimonial------------------ */
 
-// (() =>{
-//      const sliderContainer = document.querySelector(".testi-slider-container"),
-//      slides = sliderContainer.querySelectorAll(".testi-item");
-//      slideWidth = sliderContainer.offsetWidth,
-//      prevBtn = document.querySelector(".testi-slider-nav .prev"),
-//      nextBtn = document.querySelector(".testi-slider-nav .next");
-//      let slideIndex = 0;
+(() =>{
+     const sliderContainer = document.querySelector(".testi-slider-container"),
+     slides = sliderContainer.querySelectorAll(".testi-item");
+     slideWidth = sliderContainer.offsetWidth,
+     prevBtn = document.querySelector(".testi-slider-nav .prev"),
+     nextBtn = document.querySelector(".testi-slider-nav .next");
+     let slideIndex = 0;
 
-//      slides.forEach((slide) =>{
+     slides.forEach((slide) =>{
          
-//          slide.style.width = slideWidth + "px";
-//      })
+         slide.style.width = slideWidth + "px";
+     })
 
-//     sliderContainer.style.width = slideWidth * slides.length + "px";
+    sliderContainer.style.width = slideWidth * slides.length + "px";
 
-//     nextBtn.addEventListener("click",()=>{
-//         if(slideIndex === slides.length-1){
-//             slideIndex = 0;
-//         }
-//         else{
-//             slideIndex++;
-//         }
-//         sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
-//     })
+    nextBtn.addEventListener("click",()=>{
+        if(slideIndex === slides.length-1){
+            slideIndex = 0;
+        }
+        else{
+            slideIndex++;
+        }
+        sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
+    })
 
-//     prevBtn.addEventListener("click",()=>{
-//         if(slideIndex === 0){
-//             slideIndex= slides.length-1;
-//         }
-//         else{
-//             slideIndex --;
-//         }
-//         sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
-//     }) 
+    prevBtn.addEventListener("click",()=>{
+        if(slideIndex === 0){
+            slideIndex= slides.length-1;
+        }
+        else{
+            slideIndex --;
+        }
+        sliderContainer.style.marginLeft = - (slideWidth * slideIndex) + "px";
+    }) 
  
-// })();
+})();
 
 
 

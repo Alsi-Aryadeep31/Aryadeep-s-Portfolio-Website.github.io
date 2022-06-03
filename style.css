@@ -1,5 +1,4 @@
 /*--------- fonts ----------*/
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@900&display=swap');
 
 
 html{
@@ -43,9 +42,9 @@ body{
 .dark-mode-btn{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 50%;
-    height: 4vh;
-    width: 4.5vh;
-    margin-top: 0.35vh;
+    height: 4.7vh;
+    width: 4.8vh;
+    margin-top: 0.22vh;
     background-color: rgb(102, 2, 122);
     position: fixed;
 }
@@ -498,6 +497,7 @@ img{
     margin: 3%;
     
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
 
 }
@@ -538,13 +538,16 @@ img{
 
 
 .home-section .home-img .img-box{
-    background-color: #310048;
+    background-color: #29013c;
     max-width: 410px;
     display: block;
     margin: auto;
     border-radius: 50%;
     height: 54vh;
+    box-shadow:  0 0 2vh rgb(255, 255, 147);
 }
+
+
 
 .home-section .home-img .img-box img{
     width: 91.5%;
@@ -566,10 +569,11 @@ img{
     cursor: pointer;
     border-radius: 10vh;
     align-items: center;
-    margin-top: 9%;
-    background-color: #11000c;
+    margin-top: 6vh;
+    background-color: #390f4f;
     color: rgb(248, 210, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.7s ease;
 
 }
 
@@ -694,7 +698,8 @@ img{
 
 .about-section .about-img .img-box img{
     height: 50vh;
-    margin-left: 49vh;
+    margin-left: 50vh;
+    
     width: 55vh;
     border-radius: 36px;
     
@@ -712,7 +717,7 @@ img{
 }
 
 .about-section .about-info a{
-    margin: 2vh;
+    margin: 4vh;
     align-items: center;
     margin-left: 64vh;
     color: rgb(231, 206, 255);
@@ -1486,17 +1491,23 @@ img{
 
 .testimonial-section .testi-box{
     width: 40%;
-    max-width:150vh ;
-    height: 65vh;
+    max-width:130vh ;
+    height: 73vh;
     margin: auto;
     background-color: #a473c0;
     text-align: center;
-    padding: 60px;
+    padding: 7vh;
+    margin-top: 1.6vh;
     
     border-radius: 36px;
+    transition: all 0.8s ease;
     
 
 
+}
+
+.testimonial-section .testi-box:hover{
+    background-color: #8747ac;
 }
 
 .testimonial-section .testi-slider{
@@ -1512,8 +1523,8 @@ img{
 }
 
 .testimonial-section .testi-slider-container .testiimg{
-    max-height: 50vh;
-    max-width: 38vh;
+    max-height: 45vh;
+    max-width: 33vh;
     border-radius: 50%;
     padding: 4vh;
 
@@ -1522,8 +1533,9 @@ img{
 .testimonial-section .testi-box p{
     font-size: 18px;
     font-style: italic;
-    width: 64vh;
-    padding: 0 9vh 5vh;
+    width: 65vh;
+    padding: 0 3vh 5vh;
+    margin-left: 2vh;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -1531,9 +1543,10 @@ img{
 .testimonial-section .testi-slider-nav{
     
     color: #f3b4e0;
-    margin-top: 10vh;
+    margin-top: 0.5vh;
+   
     text-align: center;
-    margin-left: 6vh;
+    
     
 }
 
@@ -1543,15 +1556,15 @@ img{
     width: 5vh;
     padding: 1vh;
     border-radius: 50%;
-    background-color: #11000c;
+    background-color: #3d0049;
     cursor: pointer;
-    transition: all 1s ease;
+    transition: all 0.6s ease;
     margin-left: 2vh;
 
 }
 
 .testimonial-section .testi-slider-nav span:hover{
-    background-color: #601685;
+    background-color: #7a24a5;
 }
 
 
@@ -1566,22 +1579,28 @@ img{
 .layout { 
 
     width: 100vh; 
-  
     margin: auto; 
+    padding: 3vh;
+    margin-top: -4vh;
   } 
 
   .accordion { 
   
     padding: 2vh; 
   
-    margin-top: 10bh; 
+    margin-top: 2vh; 
   
     margin-bottom: 10px; 
    
     background: #a473c0; 
   
-    border-radius: 20px; 
+    border-radius: 25px; 
+    transition: all 0.8s ease;
   } 
+
+
+
+
   .accordion__question p { 
   
     margin: 1vh; 
@@ -1594,7 +1613,7 @@ img{
   } 
   .accordion__answer p { 
   
-    margin: 5px; 
+    margin: 0.4vh; 
   
     padding: 10px; 
   
@@ -1602,7 +1621,7 @@ img{
   
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
   
-    color: rgb(248, 168, 255); 
+    color: rgb(249, 186, 254); 
   
     background: rgb(42, 0, 45); 
   
@@ -1687,7 +1706,7 @@ img{
 }
 
 .contact-section .contact-item .contact-item:hover{
-    background-color: #d7a3ed;
+    background-color: #81439c;
     
 }
 
