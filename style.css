@@ -47,11 +47,8 @@ body{
     margin-top: 0.22vh;
     background-color: rgb(102, 2, 122);
     position: fixed;
+    cursor: pointer;
 }
-
-
-
-
 
 
 
@@ -141,7 +138,6 @@ img{
     top: 44px;
     z-index: 99;
 } */
-
 
 
 
@@ -549,7 +545,8 @@ img{
     border-radius: 10vh;
     align-items: center;
     margin-top: 6vh;
-    background-color: #390f4f;
+    background-color: #1f012e;
+    box-shadow: 0 0 1vh rgb(245, 245, 49);
     color: rgb(248, 210, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: all 0.7s ease;
@@ -613,12 +610,13 @@ img{
     cursor: pointer;
     border-radius: 30px;
     margin: 0 5px;
-    border: 20px yellowgreen;
+    border: 20px rgb(247, 255, 24);
     
-    background-color: #703189;
+    background-color: #3b094e;
     color: rgb(234, 199, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
     transition: all 0.6s ease;
+    box-shadow: 0 0 2vh rgb(244, 244, 100);
 
 
 }
@@ -681,6 +679,7 @@ img{
     
     width: 55vh;
     border-radius: 36px;
+    box-shadow: 0 0 4vh yellow;
     
 }
 
@@ -1471,22 +1470,19 @@ img{
 .testimonial-section .testi-box{
     width: 40%;
     max-width:130vh ;
-    height: 73vh;
+    height: 75vh;
     margin: auto;
     background-color: #a473c0;
     text-align: center;
     padding: 7vh;
-    margin-top: 1.6vh;
-    
+    margin-top: 1vh;
+    box-shadow: 0 0 4vh rgba(255, 255, 32, 0.653);
     border-radius: 36px;
     transition: all 0.8s ease;
-    
-
-
 }
 
 .testimonial-section .testi-box:hover{
-    background-color: #8747ac;
+    background-color: #4c1a68;
 }
 
 .testimonial-section .testi-slider{
@@ -1495,17 +1491,14 @@ img{
 
 .testimonial-section .testi-slider-container{
     display: flex;
-    
-    
-    
     transition: margin 1s ease;
 }
 
 .testimonial-section .testi-slider-container .testiimg{
-    max-height: 45vh;
-    max-width: 33vh;
+    max-height: 48vh;
+    max-width: 35vh;
     border-radius: 50%;
-    padding: 4vh;
+    padding: 3vh;
 
 }
 
@@ -1522,9 +1515,9 @@ img{
 .testimonial-section .testi-slider-nav{
     
     color: #f3b4e0;
-    margin-top: 0.5vh;
    
     text-align: center;
+    padding: 2%;
     
     
 }
@@ -1535,15 +1528,16 @@ img{
     width: 5vh;
     padding: 1vh;
     border-radius: 50%;
-    background-color: #3d0049;
+    background-color: #4e015d;
     cursor: pointer;
     transition: all 0.6s ease;
     margin-left: 2vh;
+    box-shadow: 0 0 1vh rgb(255, 255, 43);
 
 }
 
 .testimonial-section .testi-slider-nav span:hover{
-    background-color: #7a24a5;
+    background-color: #210032;
 }
 
 
@@ -1657,6 +1651,8 @@ img{
     background-color: #a473c0;
     border-radius: 30px;
     transition: all 1s ease;
+    box-shadow: 0 0 1.3vh rgb(255, 255, 0);
+
 
     
 }
@@ -1685,7 +1681,7 @@ img{
 }
 
 .contact-section .contact-item .contact-item:hover{
-    background-color: #81439c;
+    background-color: #58246e;
     
 }
 
@@ -1717,27 +1713,6 @@ img{
 }
 
 
-.footer .social-links{
-    
-    display: inline-flex;
-
-}
-
-
-.footer .social-links a{
-    
-    width: 5.5vh;
-    
-    /* background-color: navajowhite; */
-    color: #e2b1f7;
-    margin-top: 1.5vh;
-}
-
-.footer .social-links a :hover{
-    color: rgb(232, 253, 5);
-    animation: rightBounce3 1.6s ease-in-out infinite;
-    ;
-}
 
 
 .footer .copyright-text{
@@ -1751,4 +1726,38 @@ img{
     margin-left: 93vh;
 }
     
+
+.social-links-section{
+    background-color: #0f0018;
+    height: 5vh;
+}
+
+.social-links{
+    display: inline-flex;
+    max-width: 1%;
+    
+    
+    
+
+}
+
+
+.social-links-section .social-links a{
+    z-index: 99;
+    
+    width: 1vh;
+    
+    /* background-color: navajowhite; */
+    color: #efcaff;
+    margin-top: 1vh;
+    margin-left: 30vh;
+    justify-content: space-around;
+}
+
+.social-links a :hover{
+    color: rgb(232, 253, 5);
+    animation: rightBounce3 1.6s ease-in-out infinite;
+    ;
+}
+
 

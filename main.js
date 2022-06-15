@@ -13,7 +13,7 @@ function downFunction3(){
     document.documentElement.scrollTo(0,1600);
 }
 function downFunction4(){
-    document.documentElement.scrollTo(0,6020);
+    document.documentElement.scrollTo(0,6030);
 }
 function downFunction5(){
     document.documentElement.scrollTo(0,6820);
