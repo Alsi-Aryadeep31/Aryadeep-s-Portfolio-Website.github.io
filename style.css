@@ -387,6 +387,7 @@ img{
     border-radius: 50%;
     margin-left: 4vh;
     animation: rightBounce1 6s ease-in-out infinite;
+    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
     
     
     
@@ -400,6 +401,8 @@ img{
     border-radius: 50%;
     margin-left: 7vh;
     animation: rightBounce2 3s ease-in-out infinite;
+    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
+
     
     
 }
@@ -411,6 +414,8 @@ img{
     border-radius: 50%;
     margin-left: 125vh;
     animation: rightBounce1 5s ease-in-out infinite;
+    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
+
     
     
 }
@@ -1482,7 +1487,7 @@ img{
 }
 
 .testimonial-section .testi-box:hover{
-    background-color: #4c1a68;
+    background-color: #5b237b;
 }
 
 .testimonial-section .testi-slider{
@@ -1735,6 +1740,9 @@ img{
 .social-links{
     display: inline-flex;
     max-width: 1%;
+    margin-left: -9vh;
+    margin-top: 0.4vh;
+    
     
     
     
