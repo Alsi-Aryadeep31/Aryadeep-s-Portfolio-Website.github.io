@@ -387,7 +387,7 @@ img{
     border-radius: 50%;
     margin-left: 4vh;
     animation: rightBounce1 6s ease-in-out infinite;
-    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
+    
     
     
     
@@ -401,7 +401,7 @@ img{
     border-radius: 50%;
     margin-left: 7vh;
     animation: rightBounce2 3s ease-in-out infinite;
-    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
+
 
     
     
@@ -414,7 +414,7 @@ img{
     border-radius: 50%;
     margin-left: 125vh;
     animation: rightBounce1 5s ease-in-out infinite;
-    box-shadow: 0 0 1.4vh  rgb(255, 255, 0);
+
 
     
     
@@ -940,7 +940,7 @@ img{
     border-radius: 40px;
     background-image: url(images/design1\ \(1\).png);
     background-size: 100% 100%;
-    animation: design 45s infinite ;
+    animation: webdesign 45s infinite ;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     transition: all 5s ease;
 
@@ -978,7 +978,7 @@ img{
 
 
 
-@keyframes design{
+@keyframes webdesign{
     0%{background-image: url(images/design1\ \(1\).png);}
     6%{background-image: url(images/design1\ \(2\).png);}
     14%{background-image: url(images/design1\ \(3\).png);}
@@ -1400,9 +1400,9 @@ img{
     margin-left: 3vh;
     margin-top: -53.5vh;
     border-radius: 40px;
-    background-image: url(images/painting1.jpeg);
+    background-image: url(images/poster1.png);
     background-size: 100% 100%;
-    animation: slider-painting 45s infinite ;
+    animation: design 40s infinite ;
     animation: name duration timing-function delay iteration-count direction fill-mode;
     transition: all 5s ease;
 
@@ -1440,19 +1440,19 @@ img{
 
 
 
-@keyframes slider-photography{
-    0%{background-image: url(images/painting1.jpeg);}
-    8%{background-image: url(images/painting2.jpeg);}
-    16%{background-image: url(images/painting3.jpeg);}
-    24%{background-image: url(images/painting4.jpeg);}
-    32%{background-image: url(images/painting5.jpeg);}
-    40%{background-image: url(images/painting6.jpeg);}
-    48%{background-image: url(images/painting7.jpeg);}
-    56%{background-image: url(images/painting8.jpeg);}
-    64%{background-image: url(images/painting9.jpeg);}
-    72%{background-image: url(images/painting10.jpeg);}
-    82%{background-image: url(images/painting11.jpeg);}
-    91%{background-image: url(images/painting12.jpeg);}
+@keyframes design{
+    0%{background-image: url(images/poster1.png);}
+    8%{background-image: url(images/poster2.png);}
+    16%{background-image: url(images/poster3.png);}
+    24%{background-image: url(images/poster4.png);}
+    32%{background-image: url(images/poster5.png);}
+    40%{background-image: url(images/poster6.png);}
+    48%{background-image: url(images/poster7.png);}
+    56%{background-image: url(images/poster1.png);}
+    64%{background-image: url(images/poster2.png);}
+    72%{background-image: url(images/poster3.png);}
+    82%{background-image: url(images/poster4.png);}
+    91%{background-image: url(images/poster5.png);}
     
 }
 
@@ -1477,7 +1477,7 @@ img{
     max-width:130vh ;
     height: 75vh;
     margin: auto;
-    background-color: #a473c0;
+    background-color: #9d69ba;
     text-align: center;
     padding: 7vh;
     margin-top: 1vh;
@@ -1487,7 +1487,7 @@ img{
 }
 
 .testimonial-section .testi-box:hover{
-    background-color: #5b237b;
+    background-color: #884caa;
 }
 
 .testimonial-section .testi-slider{
@@ -1510,9 +1510,9 @@ img{
 .testimonial-section .testi-box p{
     font-size: 18px;
     font-style: italic;
-    width: 65vh;
+    width: 66.5vh;
     padding: 0 3vh 5vh;
-    margin-left: 2vh;
+    margin-left: 1vh;
 
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -1538,7 +1538,6 @@ img{
     transition: all 0.6s ease;
     margin-left: 2vh;
     box-shadow: 0 0 1vh rgb(255, 255, 43);
-
 }
 
 .testimonial-section .testi-slider-nav span:hover{
@@ -1733,7 +1732,7 @@ img{
     
 
 .social-links-section{
-    background-color: #0f0018;
+    background-color: #240039;
     height: 5vh;
 }
 

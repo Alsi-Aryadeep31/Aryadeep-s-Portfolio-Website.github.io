@@ -10,7 +10,7 @@ function downFunction2(){
     document.documentElement.scrollTo(0,810);
 }
 function downFunction3(){
-    document.documentElement.scrollTo(0,1600);
+    document.documentElement.scrollTo(0,1625);
 }
 function downFunction4(){
     document.documentElement.scrollTo(0,6030);
@@ -24,19 +24,19 @@ function downFunction6(){
 
 
 function downFunction7(){
-    document.documentElement.scrollTo(0,2320);
+    document.documentElement.scrollTo(0,2330);
 }
 function downFunction8(){
-    document.documentElement.scrollTo(0,3020);
+    document.documentElement.scrollTo(0,3030);
 }
 function downFunction9(){
-    document.documentElement.scrollTo(0,3720);
+    document.documentElement.scrollTo(0,3730);
 }
 function downFunction10(){
-    document.documentElement.scrollTo(0,4420);
+    document.documentElement.scrollTo(0,4430);
 }
 function downFunction11(){
-    document.documentElement.scrollTo(0,5120);
+    document.documentElement.scrollTo(0,5130);
 }
 
 
